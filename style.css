@@ -240,7 +240,7 @@ div#expertise #frameworks .flex-item:nth-child(3) {
 }
 
 .pullUp {
-  animation: pullUp 3s ease 2s;
+  animation: pullUp 3s ease;
 }
 
 #goToTopBtn {
