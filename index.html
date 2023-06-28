@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" scroll-behavior: smooth>
+  <head>
+    <title>My Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="my, Portfolio, Website, Webpage">
+    <meta name="description" content="My Portfolio">
+    <meta name="author" content="David Chui">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/5602/5602732.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script defer src="script.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <div id="introduction">
+        <p>Hi! I am</p>
+        <p id="name"> David</p>
+        <h1>Self Taught Frontend Developer</h1>
+      </div>
+      <button id="goToTopBtn" onclick="goToTop()">Go to Top</button>
+    </header>
+
+    <main>
+      <article id="about-me">
+        <h1>About Me</h1>
+        <p>I taught myself website development through Youtube tutorials, Online tutorials and Programming documentations!</p>
+        <p>Since young I once always intrigued by <span>Inspect Element</span> in the browser. It look's cool, it looks like a hacker type of thing. But...what does it do??</p>
+        <p>From there on, I began learning about Programming online, practising it through coding games and challenges. Finding myself curious in website development.</p>
+        <p>Now, I have familiarised myself with basic Frontend Development. I'm still on the journey to learn more!</p>
+      </article>
+      <div id="expertise">
+        <h1>Expertise</h1>
+        <ul class="flex-container">
+          <li class=" flex-item hidden">
+            <div>
+              <h1>HTML5</h1>
+              <img src="HTML5.png">
+            </div>
+            <div class="progress-bar">
+              <p>Beginner Advanced Expert</p>
+              <div id="html"></div>
+            </div>
+          </li>
+          <li class=" flex-item hidden css">
+            <div>
+              <h1>CSS3</h1>
+              <img src="CSS3.png">
+            </div>
+            <div class="progress-bar">
+              <p>Beginner Advanced Expert</p>
+              <div id="css"></div>  
+            </div>
+          </li>
+          <li class=" flex-item hidden js">
+            <div>
+              <h1>JavaScript</h1>
+              <img src="JS.png">
+            </div>
+            <div class="progress-bar">
+              <p>Beginner Advanced Expert</p>
+              <div id="js"></div>
+          </li>
+        </ul>
+        <br>
+        <div id="frameworks">
+          <h1>Familiar Frameworks</h2>
+          <ul class="flex-container">
+            <li class=" flex-item hidden">
+              <div>
+                <h1>Tailwind CSS</h1>
+                <img src="tailwindcss.png">
+            </li>
+            <li class=" flex-item hidden">
+              <div>
+                <h1>React</h1>
+                <img src="React.png">
+              </div>
+            </li>
+            <li class=" flex-item hidden">
+              <div>
+                <h1>JQuery</h1>
+                <img src="JQuery.svg">
+            </li>
+          </ul>
+        </div>
+        <div id="bottom">
+          <h3>This is only a sample website!</h3>
+          <h3>There is more to come!</h3>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
