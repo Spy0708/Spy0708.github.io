@@ -44,6 +44,28 @@ html {
     font-family: 'Poppins', sans-serif;
   }
 
+nav {
+  position: fixed;
+  background-color: whitesmoke;
+  width: 100%;
+  z-index: 15;
+}
+
+nav ul {
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 3rem;
+  font-size: 3rem;
+  color: white;
+}
+
+nav a {
+  text-decoration: none;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -52,6 +74,7 @@ body {
 header {
   margin-bottom: -1.4rem;
   text-align: center;
+  background-color: white;
 }
 
 header p {
@@ -77,7 +100,7 @@ main {
 }
 
 main h1, main h2{
-  padding-top: 1.0rem;
+  padding-top: 1.2rem;
   font-size: 2rem;
   font-weight: 500;
 }
@@ -100,6 +123,7 @@ div#expertise {
   width: 100%;
   height: 100%;
   background: rgba(0,0,0,0.1);
+  padding-top: 5rem;
 }
 
 div#expertise h1 {
@@ -231,6 +255,17 @@ div#expertise #frameworks .flex-item:nth-child(3) {
   text-align: center;
 }
 
+footer {
+  height: auto;
+  background-color: darkblue;
+  text-align: center;
+  color: white;
+  padding: 20rem;
+  position: sticky;
+  bottom: 0rem;
+  z-index: -5;
+}
+
 .hidden {
   opacity: 0;
   filter: blur(5px);
@@ -245,7 +280,7 @@ div#expertise #frameworks .flex-item:nth-child(3) {
 }
 
 .pullUp {
-  animation: pullUp 3s ease 2s;
+  animation: pullUp 2s ease 3s;
 }
 
 #goToTopBtn {
